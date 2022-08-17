@@ -86,8 +86,8 @@ router.post('/forget-password',async (req,res) => {
     var transporter = nodemailer.createTransport({
       service: 'hotmail',
       auth: {
-        user: 'jalauksinghmaurya2021@outlook.com',
-        pass: 'Laptop-2#'
+        user: '##############@outlook.com',
+        pass: '#########'
       }
     });
      
