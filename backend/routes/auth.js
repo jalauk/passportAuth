@@ -94,13 +94,13 @@ router.post('/forget-password',async (req,res) => {
     var transporter = nodemailer.createTransport({
       service: 'hotmail',
       auth: {
-        user: 'jalauksinghmaurya2021@outlook.com',
-        pass: 'Laptop-2#'
+        user: '###############',
+        pass: '################'
       }
     });
      
     var mailOptions = {
-      from: 'jalauksinghmaurya2021@outlook.com',
+      from: '#################',
       to: `${email}`,
       subject: 'Sending Email using Node.js',
       text: `http://localhost:3000/reset-password/${user._id}`
